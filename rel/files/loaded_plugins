@@ -1,1 +1,3 @@
 emqttd_dashboard.
+emqttd_plugin_mysql.
+emqttd_recon.

@@ -9,7 +9,7 @@
 	url = https://github.com/emqtt/emqttd_plugin_pgsql.git
 [submodule "plugins/emqttd_plugin_mysql"]
 	path = plugins/emqttd_plugin_mysql
-	url = https://github.com/emqtt/emqttd_plugin_mysql.git
+	url = https://github.com/023soft/emqttd_plugin_mysql.git
 [submodule "plugins/emqttd_sockjs"]
 	path = plugins/emqttd_sockjs
 	url = https://github.com/emqtt/emqttd_sockjs.git
