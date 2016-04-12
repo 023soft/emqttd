@@ -22,3 +22,9 @@
 [submodule "plugins/emqttd_plugin_redis"]
 	path = plugins/emqttd_plugin_redis
 	url = https://github.com/emqtt/emqttd_plugin_redis.git
+[submodule "plugins/emqttd_plugin_autosub"]
+	path = plugins/emqttd_plugin_autosub
+	url = https://git.oschina.net/276361270/emqttd_plugin_autosub.git
+[submodule "plugins/emqttd_recon_web"]
+	path = plugins/emqttd_recon_web
+	url = https://github.com/276361270/emqttd_recon_web.git
