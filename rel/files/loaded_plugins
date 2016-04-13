@@ -1,3 +1,4 @@
 emqttd_dashboard.
 emqttd_plugin_autosub.
 emqttd_recon.
+emqttd_recon_web.

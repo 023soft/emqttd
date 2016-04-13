@@ -63,4 +63,9 @@ build_plt: compile
 dialyzer: compile
 	dialyzer -Wno_return --plt $(PLT) deps/*/ebin ./ebin plugins/*/ebin
 
+console: dist
+	./rel/emqttd/bin/emqttd console
+
+
+
 
