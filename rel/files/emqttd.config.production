@@ -16,13 +16,13 @@
     {error_logger_redirect, false},
     {crash_log, "log/emqttd_crash.log"},
     {handlers, [
-        %%{lager_console_backend, info},
+        {lager_console_backend, info},
         %%NOTICE: Level >= error
         %%{lager_emqtt_backend, error},
         {lager_file_backend, [
             {formatter_config, [time, " ", pid, " [",severity,"] ", message, "\n"]},
             {file, "log/emqttd_error.log"},
-            {level, error},
+            {level, debug},
             {size, 104857600},
             {date, "$D0"},
             {count, 30}
@@ -171,9 +171,9 @@
 
             %% $c will be replaced by clientid
             %% {"$queue/clients/$c", 1},
-
+            %%{"g/public/c",0},
             %% Static subscriptions from backend
-            backend
+             backend
         ]}
 
         %% Rewrite rules
