@@ -5,6 +5,19 @@
 Changes
 =======
 
+<<<<<<< HEAD:docs/source/changes.rst
+=======
+.. _release_1.0.1:
+
+-------------
+Version 1.0.1
+-------------
+
+*Release Date: 2016-04-16*
+
+PR#515 - Fix '$queue' pubsub, add 'pubsub_queue' test and update docs
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 .. _release_1.0:
 
 ------------------------------------
@@ -77,9 +90,15 @@ Code Review and improve the design of Dashboard.
 -------------------
 Version 0.17.0-beta
 -------------------
+<<<<<<< HEAD:docs/source/changes.rst
 
 *Release Date: 2016-03-15*
 
+=======
+
+*Release Date: 2016-03-15*
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 Highlights
 ----------
 
@@ -122,11 +141,19 @@ Plugins
 Upgrade Dashboard, Redis, Stomp and Template Plugins
 
 .. _release_0.16.0:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.16.0-beta
 -------------------
 
+=======
+
+-------------------
+Version 0.16.0-beta
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2016-02-16*
 
 Highlights
@@ -164,11 +191,19 @@ Plugins
 Changed the license of all plugins.
 
 .. _release_0.15.0:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.15.0-beta
 -------------------
 
+=======
+
+-------------------
+Version 0.15.0-beta
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2016-01-31*
 
 Highlights
@@ -226,6 +261,7 @@ Bugfix: emqttd_ws_client.erl: Unexpected Info: {'EXIT',<0.27792.18>,{shutdown,de
 Improve: fix spec errors found by dialyzer
 
 .. _release_0.14.0:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.14.0-beta
@@ -233,6 +269,15 @@ Version 0.14.0-beta
 
 *Release Date: 2015-12-18*
 
+=======
+
+-------------------
+Version 0.14.0-beta
+-------------------
+
+*Release Date: 2015-12-18*
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 Highlights
 ----------
 
@@ -278,11 +323,19 @@ Benchmark
 1.3 million concurrent MQTT connections on a 12 Core, 32G CentOS Server, consume about 15G Memory and 200% CPU.
 
 .. _release_0.13.1:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.13.1-beta
 -------------------
 
+=======
+
+-------------------
+Version 0.13.1-beta
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-11-28*
 
 Bugfix: Plugin pathes error under windows (#387)
@@ -343,6 +396,7 @@ Benchmark
 
 3.1G memory and 50+ CPU/core:
 
+<<<<<<< HEAD:docs/source/changes.rst
 .. code:: console
 
     Connections: 250K
@@ -359,6 +413,24 @@ Benchmark
 Version 0.12.3-beta
 -------------------
 
+=======
+.. code-block:: bash
+
+    Connections: 250K
+    Subscribers: 250K
+    Topics:      50K
+    Qos1 Messages/Sec In:  4K
+    Qos1 Messages/Sec Out: 20K
+    Traffic In(bps):  12M+
+    Traffic Out(bps): 56M+
+
+.. _release_0.12.3:
+
+-------------------
+Version 0.12.3-beta
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-10-22*
 
 Bugfix: emqttd_sysmon crasher for 'undefined' process_info (#350)
@@ -366,21 +438,37 @@ Bugfix: emqttd_sysmon crasher for 'undefined' process_info (#350)
 Bugfix: emqttd_client: catch parser exception (#353)
 
 .. _release_0.12.2:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.12.2-beta
 -------------------
 
+=======
+
+-------------------
+Version 0.12.2-beta
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-10-16*
 
 Bugfix: Retained messages should not be expired if 'broker.retained.expired_after = 0' (#346)
 
 .. _release_0.12.1:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.12.1-beta
 -------------------
 
+=======
+
+-------------------
+Version 0.12.1-beta
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-10-15*
 
 Highlight: Release for Bugfix and Code Refactor.
@@ -400,6 +488,7 @@ Task: benchmark for 0.12.0 release (#225)
 Benchmark: About 900K concurrent connections established on a 20Core, 32G CentOS server.
 
 .. _release_0.12.0:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.12.0-beta
@@ -407,6 +496,15 @@ Version 0.12.0-beta
 
 *Release Date: 2015-10-08*
 
+=======
+
+-------------------
+Version 0.12.0-beta
+-------------------
+
+*Release Date: 2015-10-08*
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 Highlights
 ----------
 
@@ -450,11 +548,19 @@ Hw requirements - 5K users, 25-50 msgs/sec, QoS=1 (#209)
 Supported Number of Connections Greatly Reduced When Clients are Subscribing (#324)
 
 .. _release_0.11.0:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.11.0-beta
 -------------------
 
+=======
+
+-------------------
+Version 0.11.0-beta
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-09-25*
 
 Highlight: Rebar to manage plugin dependencies.
@@ -480,11 +586,19 @@ Bugfix: issue#311 - './bin/emqttd_ctl sessions list' error
 Bugfix: issue#312 - unsubcribe will lead to crash if emqttd_plugin_template plugin loaded
 
 .. _release_0.10.4:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.10.4-beta
 -------------------
 
+=======
+
+-------------------
+Version 0.10.4-beta
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-09-18*
 
 Optimize session management and upgrade eSockd library to 2.7.1
@@ -500,11 +614,19 @@ Bugfix:  issue#291 - "./bin/emqttd attach ..." cannot work
 Bugfix:  issue#284 - Should not use erlang:list_to_atom/1 in emqttd_vm.erl
 
 .. _release_0.10.3:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.10.3-beta
 -------------------
 
+=======
+
+-------------------
+Version 0.10.3-beta
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-08-30*
 
 Bugfix:  issue#271 - add emqttd_ws_client:subscribe/2 function
@@ -514,21 +636,37 @@ Bugfix:  issue#269 - bin/emqttd Syntax error on ubuntu
 Improve: issue#265 - client under unstable mobile network generate a lot of logs
 
 .. _release_0.10.2:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.10.2-beta
 -------------------
 
+=======
+
+-------------------
+Version 0.10.2-beta
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-08-26*
 
 Improve: issue#257 - After the node name changed, the broker cannot restart for mnesia schema error.
 
 .. _release_0.10.1:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.10.1-beta
 -------------------
 
+=======
+
+-------------------
+Version 0.10.1-beta
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-08-25*
 
 Bugfix: issue#259 - when clustered the emqttd_dashboard port is close, and the 'emqttd' application cannot stop normally.
@@ -536,11 +674,19 @@ Bugfix: issue#259 - when clustered the emqttd_dashboard port is close, and the '
 Feature: issue#262 - Add 'http://host:8083/mqtt/status' Page for health check
 
 .. _release_0.10.0:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.10.0-beta
 -------------------
 
+=======
+
+-------------------
+Version 0.10.0-beta
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-08-20*
 
 [Web Dashboard](https://github.com/emqtt/emqttd_dashboard) and [MySQL](https://github.com/emqtt/emqttd_plugin_mysql), [PostgreSQL](https://github.com/emqtt/emqttd_plugin_pgsql) Authentication/ACL Plugins!
@@ -586,11 +732,19 @@ Bugfix: Too many 'Session ~s cannot find PUBACK' logs (#212)
 Bugfix: emqttd_pooler cannot work
 
 .. _release_0.9.3:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.9.3-alpha
 -------------------
 
+=======
+
+-------------------
+Version 0.9.3-alpha
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-07-25*
 
 Wiki: [Bridge](https://github.com/emqtt/emqttd/wiki/Bridge)
@@ -604,21 +758,37 @@ Improve: ./bin/emqttd_ctl to support new bridges command
 Bugfix: issue #206 - Cannot bridge two nodes
 
 .. _release_0.9.2:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.9.2-alpha
 -------------------
 
+=======
+
+-------------------
+Version 0.9.2-alpha
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-07-18*
 
 Improve: issue #196 - Add New Hook 'client.subscribe.after' 
 
 .. _release_0.9.1:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.9.1-alpha
 -------------------
 
+=======
+
+-------------------
+Version 0.9.1-alpha
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-07-10*
 
 Bugfix: issue #189 - MQTT over WebSocket(SSL) cannot work?
@@ -626,11 +796,19 @@ Bugfix: issue #189 - MQTT over WebSocket(SSL) cannot work?
 Bugfix: issue #193 - 'client.ack' hook should be renamed to 'message.acked', and called by emqttd_broker:foreach_hooks 
 
 .. _release_0.9.0:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.9.0-alpha
 -------------------
 
+=======
+
+-------------------
+Version 0.9.0-alpha
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-07-09*
 
 [Session, Queue, Inflight Window, Hooks, Global MessageId and More Protocol Compliant](https://github.com/emqtt/emqttd/releases/tag/0.9.0-alpha) Now!
@@ -708,21 +886,37 @@ Version 0.8.5-beta
 Bugfix: issue #53 - client will receive duplicate messages when overlapping subscription
 
 .. _release_0.8.4:
+<<<<<<< HEAD:docs/source/changes.rst
 
 ------------------
 Version 0.8.4-beta
 ------------------
 
+=======
+
+------------------
+Version 0.8.4-beta
+------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-06-08*
 
 Bugfix: issue #165 - duplicated message when publish 'retained' message to persistent client
 
 .. _release_0.8.3:
+<<<<<<< HEAD:docs/source/changes.rst
 
 ------------------
 Version 0.8.3-beta
 ------------------
 
+=======
+
+------------------
+Version 0.8.3-beta
+------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-06-05*
 
 Bugfix: issue #158 - should queue:in new message after old one dropped
@@ -744,11 +938,19 @@ Bugfix: issue #147 - WebSocket client cannot subscribe queue '$Q/queue/${clientI
 Bugfix: issue #146 - emqttd_auth_ldap: fill(Username, UserDn) is not right
 
 .. _release_0.8.1:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.8.1-alpha
 -------------------
 
+=======
+
+-------------------
+Version 0.8.1-alpha
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-05-28*
 
 Client [Presence](https://github.com/emqtt/emqttd/wiki/Presence) Support and [$SYS Topics](https://github.com/emqtt/emqttd/wiki/$SYS-Topics) Redesigned!
@@ -796,11 +998,19 @@ Improve: add emqttd_sm_sup module, and use 'hash' gproc_pool to manage sessions
 Tests: add more test cases for 'emqttd' app
 
 .. _release_0.7.1:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.7.1-alpha
 -------------------
 
+=======
+
+-------------------
+Version 0.7.1-alpha
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-05-04*
 
 Add doc/design/* and merge doc/* to github Wiki
@@ -812,11 +1022,19 @@ Bugfix: issue #123 - emqttd:unload_all_plugins/0 cannot unload any plugin
 Bugfix: fix errors found by dialyzer
 
 .. _release_0.7.0:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.7.0-alpha
 -------------------
 
+=======
+
+-------------------
+Version 0.7.0-alpha
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-05-02*
 
 [MQTT over WebSocket(SSL)](https://github.com/emqtt/emqttd/wiki/MQTT-Over-WebSocket) Now!
@@ -850,11 +1068,19 @@ Bugfix: issue #112 - Makefile to support build plugins
 Bugfix: issue #96 - "make clean" cannot work
 
 .. _release_0.6.2:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.6.2-alpha
 -------------------
 
+=======
+
+-------------------
+Version 0.6.2-alpha
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-04-24*
 
 Bugfix: critical issue #54, #104, #106 - error when resume session 
@@ -968,11 +1194,19 @@ Change: ./bin/emqttd_ctl add 'stats', 'metrics' commands.
 Bugfix: issue #71, #72
 
 .. _release_0.5.3:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.5.3-alpha
 -------------------
 
+=======
+
+-------------------
+Version 0.5.3-alpha
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-03-19*
 
 Bugfix: issues#72 - emqttd_cm, emqtt_sm ets:match_delete/2 with wrong pattern
@@ -998,11 +1232,19 @@ Version 0.5.1-alpha
 Change: upgrade esockd to v1.2.0-beta, rename 'acceptor_pool' to 'acceptors'
 
 .. _release_0.5.0:
+<<<<<<< HEAD:docs/source/changes.rst
 
 -------------------
 Version 0.5.0-alpha
 -------------------
 
+=======
+
+-------------------
+Version 0.5.0-alpha
+-------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-03-12*
 
 RENAME 'emqtt' to 'emqttd'!
@@ -1064,31 +1306,55 @@ Change: emqtt_opts to add merge/2 function
 Test: add emqtt_serialiser_tests.erl
 
 .. _release_0.3.4:
+<<<<<<< HEAD:docs/source/changes.rst
 
 ------------------
 Version 0.3.4-beta
 ------------------
 
+=======
+
+------------------
+Version 0.3.4-beta
+------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-03-08*
 
 Bugfix: emqtt_serialiser.erl cannot serialise UNSUBACK packets
 
 .. _release_0.3.3:
+<<<<<<< HEAD:docs/source/changes.rst
 
 ------------------
 Version 0.3.3-beta
 ------------------
 
+=======
+
+------------------
+Version 0.3.3-beta
+------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-03-07*
 
 Bugfix: emqtt_serialiser.erl cannot serialise PINGRESP issue#60
 
 .. _release_0.3.2:
+<<<<<<< HEAD:docs/source/changes.rst
 
 ------------------
 Version 0.3.2-beta
 ------------------
 
+=======
+
+------------------
+Version 0.3.2-beta
+------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-03-05*
 
 Improve: merge emqttc serialiser, parser, packet
@@ -1116,11 +1382,19 @@ Upgrade: esockd to v0.2.0
 Upgrade: mochiweb to v3.0.0
 
 .. _release_0.3.0:
+<<<<<<< HEAD:docs/source/changes.rst
 
 ------------------
 Version 0.3.0-beta
 ------------------
 
+=======
+
+------------------
+Version 0.3.0-beta
+------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-01-19*
 
 Feature: HTTP POST API to support 'qos', 'retain' parameters
@@ -1166,11 +1440,19 @@ Test: simple cluster test
 Closed Issues: #22, #24, #27, #28, #29, #30, #31, #32, #33, #34, #36, #37, #38, #39, #41, #42, #43
 
 .. _release_0.2.1:
+<<<<<<< HEAD:docs/source/changes.rst
 
 ------------------
 Version 0.2.1-beta
 ------------------
 
+=======
+
+------------------
+Version 0.2.1-beta
+------------------
+
+>>>>>>> emqtt/master:docs/source/changes.rst
 *Release Date: 2015-01-08*
 
 pull request 26: Use binaries for topic paths and fix wildcard topics
